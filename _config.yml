@@ -1,30 +1,30 @@
 # Site settings
 title: "Dev corner"
-email: jacob@jacobtomlinson.co.uk
-description: "A dark blog theme for Jekyll."
+email: patriknygren82@gmail.com
+description: "The place I collect my thoughts around software development and tools."
 baseurl: ""
-url: "http://carte-noire.jacobtomlinson.co.uk/"
-title_description: "A dark blog theme for Jekyll focusing on a clear reading experience. Large text and a narrow body makes carte noire a gorgeous read. With excellent code snippet support and integrated tools such as AddThis and Disqus giving your Jekyll blog all the functionality your users expect."
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
-google_analytics: "UA-20365477-4"
-disqus_account: cartenoire
-github_repository: https://github.com/jacobtomlinson/carte-noire
-addthis_id: ra-513c6fa83da6ec67
+url: "https://patriques82.github.io"
+title_description: "This is the place where I collect my thoughts around software development and tools. I mostly focus on Kotlin, and web."
+title_image: "https://avatars.githubusercontent.com/patriques82"
+google_analytics:
+disqus_account:
+github_repository: https://github.com/patriques82/patriques82.github.io
+addthis_id:
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: _jacobtomlinson
-github_username:  jacobtomlinson
-instagram_username: 
-reddit_username: 
-linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
-google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
-stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+twitter_username:
+github_username:  patriques82
+instagram_username:
+reddit_username:
+linkedin_link: https://www.linkedin.com/in/patrik-nygren-7788a626/
+google_plus_link:
+stackoverflow_link:
 xing_link:
 facebook_link:
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_left:
 footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
