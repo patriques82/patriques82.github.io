@@ -5,7 +5,7 @@ date:       2019-02-07 18:15:00
 author:     Patrik Nygren
 summary:    See that the magic features of Kotlin that makes creating a dsl are not so magic at all.
 categories: jekyll
-thumbnail: cogs
+thumbnail:  cogs
 tags:
  - kotlin
  - dsl
@@ -22,7 +22,7 @@ works if <del>for some reason you need to update your post</del>. For consistenc
 
 Code blocks use the [peppermint][2] theme.
 
-{% highlight kotlin %}
+{% highlight Dart %}
 fun createProject(init: Project.() -> Unit): Project =
     Project().apply(init)
 
