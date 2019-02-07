@@ -20,25 +20,18 @@ works if <del>for some reason you need to update your post</del>. For consistenc
 
 ### Code, with syntax highlighting
 
-Code blocks use the [peppermint][2] theme.
+<div class="kotlin-code" theme="idea" data-highlight-only>
+    <pre>
+        <code class="hljs language-txt">
+            "class Contact(val id: Int, var email: String) 
 
-{% highlight Dart %}
-fun createProject(init: Project.() -> Unit): Project =
-    Project().apply(init)
+            fun main(args: Array&lt;String&gt;) {
+                val contact = Contact(1, "mary@gmail.com")
+                println(contact.id)                   
+            }
+            "
+        </code>
+    </pre>
+</div>
 
-class Project {
-    var group: String = ""
-    var version: String = ""
-    val repositories = Repositories(mutableListOf())
-    val dependencies = Dependencies(mutableListOf())
-
-    fun repositories(init: Repositories.() -> Unit) {  // Lambda with receiver
-        repositories.init()
-    }
-
-    fun dependencies(init: Dependencies.() -> Unit) {
-        dependencies.init()
-    }
-}
-{% endhighlight %}
 
