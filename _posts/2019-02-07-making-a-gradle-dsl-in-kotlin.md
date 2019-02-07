@@ -3,8 +3,7 @@ layout:     post
 title:      Making a gradle dsl in Kotlin
 date:       2019-02-07 18:15:00
 author:     Patrik Nygren
-summary:    See the magic features of Kotlin that makes creating a dsl are not
-magic at all.
+summary:    See that the magic features of Kotlin that makes creating a dsl are not so magic at all.
 categories: jekyll
 thumbnail: cogs
 tags:
