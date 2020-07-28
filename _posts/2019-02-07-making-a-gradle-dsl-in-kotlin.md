@@ -96,4 +96,4 @@ class Repositories(private val repositories: MutableList) {
 }
 </div>
 
-The dependencies function is implemented in a similar way. I hope this shows one way of implementing an internal DSL in Kotlin. What I´m curious about is how to do this in a functional style, right now my mind always bends this way; I always have an underlying object that gets to be set, I know Haskell is also well-known for being a great DSL builder, so maybe I can steal some ideas from there. 
+The dependencies function is implemented in a similar way. I hope this shows one way of implementing an internal DSL in Kotlin. What I´m curious about is how to do this in a functional style, right now my mind always bends this way; I always have an underlying object that gets to be set, I know Haskell is also well-known for being a great DSL builder, so maybe I can steal some ideas from there.

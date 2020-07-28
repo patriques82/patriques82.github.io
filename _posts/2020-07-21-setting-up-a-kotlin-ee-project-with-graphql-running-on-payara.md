@@ -3,7 +3,7 @@ layout:     post
 title:      Setting up a KotlinEE project with graphql running on Payara
 date:       2020-07-21 11:13:00
 author:     Patrik Nygren
-summary:    See how to use Kotlin, Jakarta EE and GraphQL together for a modern
+summary:    How to use Kotlin, Jakarta EE and GraphQL together for a modern
 webstack
 categories: kotlin, jakartaee, graphql, payara
 thumbnail:  cogs
@@ -32,7 +32,7 @@ plugins. We use kotlin.jvm plugin to enable tasks to compile Kotlin to JVM byte
 code, and the war plugin to enable the war task, which we will enhance later.
 
 ##### Dependencies
- 
+
 <div class="kotlin-code" theme="darcula" data-highlight-only>
 repositories {
     jcenter()
@@ -123,7 +123,7 @@ application server from [Payara](https://www.payara.fish/downloads/payara-platfo
 Now run war task from the root of the project 
 
 ```
-./gradlew war 
+gradle war 
 ```
 
 and copy the war file to the autodeploy folder in payara
