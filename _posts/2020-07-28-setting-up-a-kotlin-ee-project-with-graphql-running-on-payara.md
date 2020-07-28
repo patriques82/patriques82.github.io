@@ -26,8 +26,8 @@ plugins {
 </div>
 
 We use the more modern plugins DSL instead of the legacy buildscript block to use external binary
-plugins. We use kotlin.jvm plugin to enable tasks to compile Kotlin to JVM byte
-code, and the war plugin to enable the war task, which we will enhance later.
+plugins. We use [kotlin.jvm](https://plugins.gradle.org/plugin/org.jetbrains.kotlin.jvm) plugin to enable tasks to compile Kotlin to JVM byte
+code, and the [war](https://maven.apache.org/plugins/maven-war-plugin) plugin to enable the war task.
 
 ##### Dependencies
 
@@ -80,6 +80,13 @@ dependencies {
     implementation 'io.smallrye:smallrye-graphql-servlet:1.0.1'
 }
 </div>
+
+SmallRye GraphQL is an implementation of [Eclipse MicroProfile GraphQL](https://github.com/eclipse/microprofile-graphql), which makes creating GraphQL based application a breeze.
+
+> “The intent of the MicroProfile GraphQL specification is to provide a “code-first” set of APIs that will enable users to quickly develop portable GraphQL-based applications in Java. There are 2 main requirements for all implementations of this specification, namely:
+
+> Generate and make the GraphQL Schema available. This is done by looking at the annotations in the users code, and must include all GraphQL Queries and Mutations as well as all entities as defined implicitly via the response type or argument(s) of Queries and Mutations.
+> Execute GraphQL requests. This will be in the form of either a Query or a Mutation. As a minimum the specification must support executing these requests via HTTP.”
 
 ##### Person.kt
 
