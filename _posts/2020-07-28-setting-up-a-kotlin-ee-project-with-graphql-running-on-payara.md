@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      KotlinEE with graphql on Payara
-date:       2020-07-28 11:13:00
+date:       2020-07-21 11:13:00
 author:     Patrik Nygren
 summary:    How to use Kotlin, Jakarta EE and GraphQL together in a modern webstack
 categories: jakartaee, graphql, payara
