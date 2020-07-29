@@ -88,6 +88,7 @@ SmallRye GraphQL is an implementation of [Eclipse MicroProfile GraphQL](https://
 > Execute GraphQL requests. This will be in the form of either a Query or a Mutation. As a minimum the specification must support executing these requests via HTTP.”
 
 ##### beans.xml
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://xmlns.jcp.org/xml/ns/javaee"
