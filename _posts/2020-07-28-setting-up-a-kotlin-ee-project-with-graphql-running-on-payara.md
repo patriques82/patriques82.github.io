@@ -68,7 +68,7 @@ graphqldemo
 
 Now all we need is to make this into a gradle project. 
 
-```
+```bash
 gradle init
 ```
 
@@ -131,13 +131,13 @@ class ProfileGraphQLApi {
 Thats it, all we need to do now is deploy this to Payara. You can download the
 application server from [Payara](https://www.payara.fish/downloads/payara-platform-community-edition). Unzip the server to the location that suits you (I installed it in my home folder). `cd` into the payara folder and start the server 
 
-```
+```bash
 ./bin/asadmin start-domain 
 ```
 
 Now run war task from the root of the project 
 
-```
+```bash
 gradle war 
 ```
 
@@ -161,6 +161,6 @@ payara5
 
 Now we should have a running GraphQL endpoint running on top Payara!
 
-```
+```bash
 curl localhost:8080/graphqldemo/schema.graphql
 ```
