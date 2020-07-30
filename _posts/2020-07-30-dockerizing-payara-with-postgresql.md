@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Dockerizing Payara server with PostrgeSQL
-date:       2020-07-28 11:13:00
+date:       2020-07-30 11:57:00
 author:     Patrik Nygren
 summary:    How to dockerize a Payara full server with PostgreSQL
 categories: jakartaee, payara, docker
